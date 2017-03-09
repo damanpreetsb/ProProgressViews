@@ -6,4 +6,9 @@
         <attr name="colorofArc" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="DottedArcProgress">
+        <attr name="dots_radius" format="dimension"/>
+        <attr name="dots_color" format="color"/>
+    </declare-styleable>
+
 </resources>
