@@ -10,8 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.singh.daman.progressviews.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <com.singh.daman.proprogressviews.DoubleArcProgress
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
 </RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DoubleArcProgress">
+        <attr name="arcRadius" format="dimension"/>
+        <attr name="colorofArc" format="color"/>
+    </declare-styleable>
+
+</resources>
