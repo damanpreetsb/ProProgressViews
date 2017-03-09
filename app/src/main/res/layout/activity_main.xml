@@ -4,24 +4,37 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
     tools:context="com.singh.daman.progressviews.MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <com.singh.daman.proprogressviews.DoubleArcProgress
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+        <com.singh.daman.proprogressviews.DoubleArcProgress
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
 
-    <com.singh.daman.proprogressviews.DottedArcProgress
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+        <com.singh.daman.proprogressviews.DottedArcProgress
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
 
-    <com.singh.daman.proprogressviews.CircleLineProgress
-        android:layout_width="150dp"
-        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.singh.daman.proprogressviews.CircleLineProgress
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <com.singh.daman.proprogressviews.CircleArcProgress
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
 
 </LinearLayout>
