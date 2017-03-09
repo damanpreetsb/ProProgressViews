@@ -1,6 +1,10 @@
 # ProProgressViews
 Android library with collection of amazing progress views.
 
+#DEMO 
+<img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/ezgif.com-video-to-gif.gif?raw=true" width="250">
+<br><br>
+
 #DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
