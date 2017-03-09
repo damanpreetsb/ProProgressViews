@@ -11,4 +11,11 @@
         <attr name="dots_color" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="CircleLineProgress">
+        <attr name="circle_radius" format="dimension"/>
+        <attr name="circle_color" format="color"/>
+        <attr name="line_radius" format="dimension"/>
+        <attr name="line_color" format="color"/>
+    </declare-styleable>
+
 </resources>
