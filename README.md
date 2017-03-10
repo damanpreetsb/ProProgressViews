@@ -5,6 +5,11 @@ Android library with collection of amazing progress views.
 <img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/ezgif.com-video-to-gif.gif?raw=true" width="250">
 <br><br>
 
+#Mentions
+<ul>
+    <li><a href="https://material.uplabs.com/posts/proprogressviews">MaterialUp</a></li>
+</ul>
+
 #DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
@@ -19,7 +24,7 @@ Android library with collection of amazing progress views.
 <p>Add this to your app module's <code>build.gradle</code> file</p>
 
 <pre><code>dependencies {
-            compile 'com.github.DamanSingh4321:ProProgressViews:-SNAPSHOT'
+             compile 'com.github.DamanSingh4321:ProProgressViews:v1.0'
     }
 </code></pre>
 <br><br>
