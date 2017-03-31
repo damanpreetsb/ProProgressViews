@@ -6,8 +6,12 @@ Android library with collection of amazing progress views.
 <br><br>
 
 ## Mentions
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProProgressViews-blue.svg?style=flat)](https://android-arsenal.com/details/1/5454)
+
 <ul>
     <li><a href="https://material.uplabs.com/posts/proprogressviews">MaterialUp</a></li>
+    <li><a href="https://android.libhunt.com/project/proprogressviews">Android Library Hunt</a></li>
 </ul>
 
 ## DOWNLOAD
