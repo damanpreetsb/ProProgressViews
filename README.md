@@ -1,16 +1,16 @@
 # ProProgressViews
 Android library with collection of amazing progress views.
 
-#DEMO 
+## DEMO 
 <img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/ezgif.com-video-to-gif.gif?raw=true" width="250">
 <br><br>
 
-#Mentions
+## Mentions
 <ul>
     <li><a href="https://material.uplabs.com/posts/proprogressviews">MaterialUp</a></li>
 </ul>
 
-#DOWNLOAD
+## DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
 <pre><code>allprojects {
@@ -40,7 +40,7 @@ According to above DEMO:-
 <li><code>CicleArcProgress</code></li>
 </ul>
 <br><br>
-#USAGE
+## USAGE
 <p>In your Layout XML add this (all the app:.... attributes are optional and have default values
 <p><b>For DoubleArcProgress</b></p>
 <pre><code>    &lt;com.singh.daman.proprogressviews.DoubleArcProgress
@@ -192,10 +192,10 @@ According to above DEMO:-
 </table>
 
 <br><br>
-#DEVELOPERS
+## DEVELOPERS
 <a href="https://github.com/damansingh4321">Damanpreet Singh</a>
 <br><br>
-#LICENSE
+## LICENSE
 <br>
 <pre><code>Copyright 2017 Damanpreet Singh
 
