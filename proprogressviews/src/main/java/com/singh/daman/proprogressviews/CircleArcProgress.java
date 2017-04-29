@@ -60,6 +60,7 @@ public class CircleArcProgress extends View {
         oval.set(getWidth()/2-out_rad,getHeight()/2-out_rad,getWidth()/2+out_rad,getHeight()/2+out_rad);
         canvas.drawArc(oval,startAngle2,sweepAngle,false,paint);
     }
+
     Runnable animator=new Runnable() {
         @Override
         public void run() {

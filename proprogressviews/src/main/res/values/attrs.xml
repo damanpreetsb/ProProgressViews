@@ -25,4 +25,14 @@
         <attr name="arc_color" format="color"/>
     </declare-styleable>
 
+    <declare-styleable name="DotsZoomProgress">
+        <attr name="inner_radius" format="dimension"/>
+        <attr name="inner_color" format="color"/>
+        <attr name="mid_radius" format="dimension"/>
+        <attr name="mid_color" format="color"/>
+        <attr name="outer_radius" format="dimension"/>
+        <attr name="outer_color" format="color"/>
+        <attr name="min_radius" format="dimension"/>
+    </declare-styleable>
+
 </resources>
