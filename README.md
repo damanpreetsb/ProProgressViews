@@ -1,7 +1,20 @@
 # ProProgressViews
 Android library with collection of amazing progress views.
 
-#DOWNLOAD
+## DEMO 
+<img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/ezgif.com-video-to-gif.gif?raw=true" width="250">
+<br><br>
+
+## Mentions
+
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-ProProgressViews-blue.svg?style=flat)](https://android-arsenal.com/details/1/5454)
+
+<ul>
+    <li><a href="https://material.uplabs.com/posts/proprogressviews">MaterialUp</a></li>
+    <li><a href="https://android.libhunt.com/project/proprogressviews">Android Library Hunt</a></li>
+</ul>
+
+## DOWNLOAD
 <p>Add this to your root <code>build.gradle</code> file</p>
 
 <pre><code>allprojects {
@@ -15,7 +28,7 @@ Android library with collection of amazing progress views.
 <p>Add this to your app module's <code>build.gradle</code> file</p>
 
 <pre><code>dependencies {
-            compile 'com.github.DamanSingh4321:ProProgressViews:-SNAPSHOT'
+             compile 'com.github.DamanSingh4321:ProProgressViews:v1.0'
     }
 </code></pre>
 <br><br>
@@ -31,7 +44,7 @@ According to above DEMO:-
 <li><code>CicleArcProgress</code></li>
 </ul>
 <br><br>
-#USAGE
+## USAGE
 <p>In your Layout XML add this (all the app:.... attributes are optional and have default values
 <p><b>For DoubleArcProgress</b></p>
 <pre><code>    &lt;com.singh.daman.proprogressviews.DoubleArcProgress
@@ -183,10 +196,10 @@ According to above DEMO:-
 </table>
 
 <br><br>
-#DEVELOPERS
+## DEVELOPERS
 <a href="https://github.com/damansingh4321">Damanpreet Singh</a>
 <br><br>
-#LICENSE
+## LICENSE
 <br>
 <pre><code>Copyright 2017 Damanpreet Singh
 
