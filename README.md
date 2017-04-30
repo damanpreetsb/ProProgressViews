@@ -15,6 +15,7 @@ Android library with collection of amazing progress views.
 </ul>
 
 ## DOWNLOAD
+[![](https://jitpack.io/v/DamanSingh4321/ProProgressViews.svg)](https://jitpack.io/#DamanSingh4321/ProProgressViews)
 <p>Add this to your root <code>build.gradle</code> file</p>
 
 <pre><code>allprojects {
