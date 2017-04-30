@@ -2,7 +2,7 @@
 Android library with collection of amazing progress views.
 
 ## DEMO 
-<img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/ezgif.com-video-to-gif.gif?raw=true" width="250">
+<img src="https://github.com/DamanSingh4321/ProProgressViews/blob/master/app/screenshot.gif?raw=true" width="250">
 <br><br>
 
 ## Mentions
@@ -43,7 +43,7 @@ According to above DEMO:-
 <li><code>CircleLineProgress</code></li>
 <li><code>CicleArcProgress</code></li>
 </ul>
-<br><br>
+
 ## USAGE
 <p>In your Layout XML add this (all the app:.... attributes are optional and have default values
 <p><b>For DoubleArcProgress</b></p>
