@@ -33,6 +33,17 @@
         <attr name="outer_radius" format="dimension"/>
         <attr name="outer_color" format="color"/>
         <attr name="min_radius" format="dimension"/>
+        <attr name="zoom_speed" format="float"/>
+        <attr name="mid_alpha" format="integer"/>
+        <attr name="outer_alpha" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FadeCircleProgress">
+        <attr name="radius" format="dimension"/>
+        <attr name="color" format="color"/>
+        <attr name="speed" format="integer"/>
+        <attr name="fade_speed" format="integer"/>
+        <attr name="minimum_radius" format="dimension"/>
     </declare-styleable>
 
 </resources>
