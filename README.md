@@ -28,7 +28,7 @@ Android library with collection of amazing progress views.
 <p>Add this to your app module's <code>build.gradle</code> file</p>
 
 <pre><code>dependencies {
-             compile 'com.github.DamanSingh4321:ProProgressViews:v1.0'
+             compile 'com.github.DamanSingh4321:ProProgressViews:v1.1'
     }
 </code></pre>
 <br><br>
