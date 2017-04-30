@@ -43,6 +43,11 @@ According to above DEMO:-
 <li><code>CircleLineProgress</code></li>
 <li><code>CicleArcProgress</code></li>
 </ul>
+<br><p><strong>Row 3</strong></p>
+<ul>
+<li><code>DotsZoomProgress</code></li>
+<li><code>FadeCircleProgress</code></li>
+</ul>
 
 ## USAGE
 <p>In your Layout XML add this (all the app:.... attributes are optional and have default values
@@ -194,11 +199,148 @@ According to above DEMO:-
 <td>#009688</td>
 </tr>
 </table>
+<br><br>
+
+<p><b>For DotsZoomProgress</b></p>
+<pre><code>    &lt;com.singh.daman.proprogressviews.DotsZoomProgress
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:min_radius="10dp"
+        app:inner_radius="20dp"
+        app:mid_radius="26dp"
+        app:outer_radius="30dp"
+        app:zoom_speed="15"
+        /&gt;
+</code></pre>
+<table>
+<tr>
+<th>Property</th>
+<th>Description</th>
+<th>Format</th>
+<th>Default</th>
+</tr>
+<tr>
+<td>inner_radius</td>
+<td>Radius of inner circle.</td>
+<td>dimension</td>
+<td>50dp</td>
+</tr>
+<tr>
+<td>mid_radius</td>
+<td>Radius of middle circle.</td>
+<td>dimension</td>
+<td>70dp</td>
+</tr>
+<tr>
+<td>outer_radius</td>
+<td>Radius of outer circle.</td>
+<td>dimension</td>
+<td>90dp</td>
+</tr>
+<tr>
+<td>min_radius</td>
+<td>Radius of circle for minimum zoom out.</td>
+<td>dimension</td>
+<td>10dp</td>
+</tr>
+<tr>
+<td>inner_color</td>
+<td>Color of innercircle.</td>
+<td>color</td>
+<td>#009688</td>
+</tr>
+<tr>
+<td>mid_color</td>
+<td>Color of middle circle.</td>
+<td>color</td>
+<td>#009688</td>
+</tr>
+<tr>
+<td>outer_radius</td>
+<td>Color of outer circle.</td>
+<td>color</td>
+<td>#009688</td>
+</tr>
+<tr>
+<td>zoom_speed</td>
+<td>Speed of circle zoom in/out.</td>
+<td>float</td>
+<td>10</td>
+</tr>
+<tr>
+<td>mid_alpha</td>
+<td>Alpha of middle circle.</td>
+<td>integer</td>
+<td>50</td>
+</tr>
+<tr>
+<td>outer_alpha</td>
+<td>Alpha of outer circle.</td>
+<td>integer</td>
+<td>100</td>
+</tr>
+</table>
+<br><br>
+
+<p><b>For FadeCircleProgress</b></p>
+<pre><code>    &lt;com.singh.daman.proprogressviews.FadeCircleProgress
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         app:minimum_radius="2dp"
+         app:speed="2"
+         app:fade_speed="7"
+         app:color="@color/colorPrimaryDark"
+        /&gt;
+</code></pre>
+<table>
+<tr>
+<th>Property</th>
+<th>Description</th>
+<th>Format</th>
+<th>Default</th>
+</tr>
+<tr>
+<td>radius</td>
+<td>Radius of circle.</td>
+<td>dimension</td>
+<td>50dp</td>
+</tr>
+<tr>
+<td>color</td>
+<td>Color of circle.</td>
+<td>color</td>
+<td>#009688</td>
+</tr>
+<tr>
+<td>speed</td>
+<td>Speed of circle zoom in/out.</td>
+<td>integer</td>
+<td>10</td>
+</tr>
+<tr>
+<td>fade_speed</td>
+<td>Speed of circle fade in/out.</td>
+<td>integer</td>
+<td>5</td>
+</tr>
+<tr>
+<td>minimum_radius</td>
+<td>Radius of circle for minimum zoom out.</td>
+<td>dimension</td>
+<td>10dp</td>
+</tr>
+</table>
 
 <br><br>
-## DEVELOPERS
+## DEVELOPER
 <a href="https://github.com/damansingh4321">Damanpreet Singh</a>
 <br><br>
+
+## SPECIALS THANKS
+<a href="https://github.com/amanjeetsingh150">Amanjeet Singh</a>
+<br><br>
+##### For more cool progress views
+<a href="https://github.com/amanjeetsingh150/CoolProgressViews">CoolProgressViews</a>
 ## LICENSE
 <br>
 <pre><code>Copyright 2017 Damanpreet Singh
